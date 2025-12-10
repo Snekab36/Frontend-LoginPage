@@ -17,7 +17,7 @@ const Login = () => {
     }
 
     try {
-      const res = await axios.post("https://login-page-backend-production.up.railway.app/", {
+      const res = await axios.post("https://login-page-backend-production.up.railway.app/login", {
         email, password
       });
 
